@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-container {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    height: 100px;
+    background-color: white;
+    
+}
+
+.row{
+    margin: 1% ; 
+    display: flex;
+
+    justify-content: space-between;
+    align-content: center;
+}
+
+.col-left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.logo-img  {
+    width: 75px;  
+}
+
+.logo-img img {
+    width: 100%;
+}
+
+.col-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+main {
+    height: calc(100% - 175px);
+    background-color: #7fffd4;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid-game {
+    width: 500px;
+    height: 500px;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.square {
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* test */
+    /* width: calc(100% / 10);
+    height: calc(100% / 10);     */
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.square.active {
+    background-color: #6495ed;
+    color: white;
+}
+
+.square.mine {
+    background-color: red;
+    color: white;
+}
+.square.active span {
+    display: block;
+    
+}
+
+footer {
+    height: 75px;
+    margin: 0 1%;
+    font-size: 20px;
+    display: fixed;
+    bottom: 0;
+    background-color: white;
+    
+    display: flex;
+    align-items: center;
+}
+
+/* .hidden {
+    display: none;
+} */
