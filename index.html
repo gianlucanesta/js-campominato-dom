@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo Minato</title>
+
+    <link rel="stylesheet" href="css/style.css">   
+</head>
+<body>
+    
+    <div class="app-container">
+
+        <!-- Start Header -->
+        <header>
+            <div class="row">
+                <div class="col-left">
+                    <div class="logo-img"><img src="img/logo.png" alt="Logo Boolean"></div>
+                    
+                    <h1>Campo Minato: La Griglia</h1>
+                </div> 
+
+                <div class="col-right">
+                    <label for="difficulty">Difficoltà: </label>
+                    <select name="option" id="level">
+                        <option value="1">Easy</option>
+                        <option value="2">Hard</option>
+                        <option value="3">Crazy</option>
+                    </select>
+                    
+                    <button id="play" type="button">Play</button>
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Start Main -->
+        <main>
+
+            <div id="grid" class="grid-game border hidden">
+
+                
+                <!-- TEST -->
+                <!-- Single Square -->
+                <!-- <div class="square">
+                    <span>1</span>
+                </div> -->
+            </div>
+            <h2 id="intro" class="">Seleziona il livello di difficoltà e genera la griglia</h2>
+        </main>
+        <!-- End Main -->
+
+
+        <!-- Start Footer -->
+        <footer>
+            <div>
+                Made with &hearts; by <a href="#">Boolean</a>
+            </div>
+        </footer>
+        <!-- End Footer -->
+    </div>
+
+
+
+
+
+
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
